@@ -1,0 +1,352 @@
+*{
+    color: #121212;
+    word-break: keep-all;
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0 auto;
+    font-family: 'Hind Madurai';
+    font-weight: 400;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #121212;
+}
+h2{
+    font-family: 'Ibarra Real Nova';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60.24px;
+}
+h5{
+    font-family: 'Hind Madurai';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 115.5%;
+}
+h6{
+    font-family: 'Ibarra Real Nova';
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 32px;
+    color: white;
+}
+.p_18{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+}
+.p_20{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}
+.span_14{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+}
+.black{
+    color: #3E3E3E;
+}
+.green{
+    color: #315316;
+}
+.box-shadow{
+    box-shadow: 0px 18px 36px rgba(0, 0, 0, 0.07);
+}
+.bg_gradient{
+    background: linear-gradient(167.33deg, #FFFFFF 20.36%, #F1F1F1 88.41%);
+}
+.position-r{
+    position: relative;
+}
+.d-flex{
+    display: flex;
+}
+.flex-column{
+    flex-direction: column;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.align-items-center{
+    align-items: center;
+}
+.align-items-end{
+    align-items: end;
+}
+.gp30{
+    padding: 30px;
+    gap: 30px;
+}
+.mb30{
+    margin-bottom: 30px;
+}
+
+.btn_grn{
+    background: linear-gradient(101.26deg, #315316 18.35%, #72A748 102.79%);
+    color: #fff;
+    border-radius: 50px;
+}
+.btn_grn:hover{
+    background: transparent;
+    color: #121212;
+    border: 1px solid;
+    border-image-source: linear-gradient(101.26deg, #315316 18.35%, #72A748 102.79%);
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+    margin-top: 30px;
+    z-index: 100;
+}
+header>nav{
+    max-width: 1595px;
+    margin: 0 auto;
+    height: 90px;
+    padding: 0 82px;
+    border-radius: 6px;
+    background-color: #fff;
+}
+.head_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+header ul{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 50px;
+
+}
+.lang{
+    margin-right: 35px;
+}
+section{
+    width: 100vw;
+}
+.home{
+    position: relative;
+    height: 100vh;
+}
+.home::after{
+    position: absolute;
+    width: 988.14px;
+    height: 694.97px;
+    left: 931.86px;
+    top: 0px;
+    border-radius: 50%;
+    background-color: #cedea2;
+    z-index: 2;
+}
+.home .main_text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 45px;
+}
+.home .btn_grn{
+    padding: 16px 40px;
+}
+.btn_area{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+}
+.main_product{
+    position: relative;
+}
+.marin_product::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 406.5px;
+    height: 887.94px;
+    content: url(../assets/leaf.svg);
+    transform: rotate(28.44deg);
+    transform: rotate(28.44deg);
+}
+.marin_product::after{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 216.81px;
+    height: 206.44px;
+    content: url(../assets/leaf.svg);
+    transform: rotate(-75deg);
+}
+.item{
+    padding: 30px;
+    margin: 30px;
+    border: 1px solid #EEEEEE;
+}
+.item>h2{
+    margin-bottom: 30px;
+}
+.item>h5{
+    margin-bottom: 20px;
+}
+.item>p{
+    width: 264.18px;
+}
+.products_text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+    width: 718px;
+    height: 580px;
+    margin-left: 134px;
+}
+.products_text>p::after{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: -225px;
+    content: url(../assets/leaf.svg);
+    width: 230px;
+}
+.video{
+    background-image: url(../assets/young-beautiful-lady-sitting-near-window-make-yoga-exercises\ 2.jpg);
+    width: 1595px;
+    height: 882.19px;
+    margin: 0 auto;
+    display: block;
+}
+.video_btn{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto auto;
+    width: 120px;
+    height: 120px;
+    background: linear-gradient(101.26deg, #315316 18.35%, #72A748 102.79%);
+    border-radius: 50%;
+}
+.video_btn::after{
+    content: url(../assets/Playicon.svg);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.beautylist{
+    width: 1595px;
+    margin: 0 auto;
+    padding: 150px 0;
+}
+.beautylist>h2{
+    margin-bottom: 50px;
+}
+.list_card{
+    width: 376.25px;
+    height: 515.48px;
+    padding: 31px;
+}
+.list_card>h5{
+    margin-bottom: 10px;
+}
+.list_card>p.green{
+    margin-bottom: 12px;
+}
+.list_card>p{
+    margin-bottom: 20px;
+}
+.list_card>a{
+    /* position: absolute; */
+    width: 315px;
+    height: 268px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list_imgBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.beautylist .btn_grn{
+    padding: 8px 30px;
+}
+.discount{
+    height: 611px;
+    width: 1920px;
+    margin: 0 auto;
+}
+.discount_text{
+    width: 797px;
+    height: 314px;
+    gap: 45px;
+    text-align: center;
+}
+.discount .btn_grn{
+    padding: 16px 40px;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer{
+    width: 100%;
+    height: 704px;
+    color: #fff;
+  }
+  footer a{
+    color: white;
+  }
+
+  .container{
+    width: 1511px;
+    height: 282px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  .footer1{
+    background-color: #CEDEA2;
+    height: 200px;
+  }
+  .footer2{
+    height: 554px;
+    background-color: #315316;
+  }
+  .footer2-1{
+    width: 269px;
+  }
+  footer .copy{
+    height: 150px;
+    color: white;
+    background-color: #121212;
+  }
+  footer .sns{
+    display: flex;
+    align-items: start;
+  }
